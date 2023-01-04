@@ -27,7 +27,6 @@ const fetchMyIP = function(callback) {
   });
 };
 
-module.exports = { fetchMyIP };
 
 /**
  * Makes a single API request to retrieve the user's longitude and latitude
@@ -103,7 +102,6 @@ const fetchISSFlyoverTimes = function(coords, callback) {
 
   });
 };
-module.exports = { fetchISSFlyOverTimes };
 
 
 /**
